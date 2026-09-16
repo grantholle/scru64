@@ -8,7 +8,7 @@ use Stringable;
 /**
  * A SCRU64 ID: a 63-bit integer laid out as `timestamp << 24 | node_id << (24 - node_id_size) | counter`.
  */
-final readonly class Scru64Id implements Stringable
+readonly class Scru64Id implements Stringable
 {
     /** 36^12 - 1 */
     public const int MAX = 4738381338321616895;

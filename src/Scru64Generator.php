@@ -5,7 +5,7 @@ namespace GrantHolle\Scru64;
 use InvalidArgumentException;
 use RuntimeException;
 
-final class Scru64Generator
+class Scru64Generator
 {
     /** Clock rollback tolerated before refusing to generate, in 256ms ticks (~10s). */
     private const int ROLLBACK_ALLOWANCE = 40;

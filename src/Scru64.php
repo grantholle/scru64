@@ -7,7 +7,7 @@ use RuntimeException;
 /**
  * Global generator configured from the SCRU64_NODE_SPEC environment variable.
  */
-final class Scru64
+class Scru64
 {
     private static ?Scru64Generator $generator = null;
 
